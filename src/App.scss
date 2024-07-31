@@ -1,0 +1,24 @@
+$main-bg-color-1: rgb(62, 114, 174);
+$main-bg-color-2: rgb(255, 245, 233);
+$main-cont-color-1: white;
+
+body {
+  color: rgb(37, 37, 37);
+  background-color: $main-bg-color-2;
+  font-family: Helvetica, Arial, sans-serif;
+}
+
+.main-container {
+  background-color: $main-cont-color-1;
+  border-radius: 0.5em;
+  box-shadow: 5px 10px 10px rgba(50, 50, 50, 0.292);
+  border: 0.1rem solid black;
+}
+
+.jobs-container {
+  background-color: $main-cont-color-1;
+  // border-radius: 0.5em;
+}
+
+.job-creator-container {
+}
